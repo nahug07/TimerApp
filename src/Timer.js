@@ -50,7 +50,7 @@ const Timer = () => {
 
   return (
     <div className="app">
-      <div className="time">{segundos} segundos</div>
+      <div className="time">{segundos} s</div>
       <div className="row">
         <button className={`button-primary button-primary-${activo ? 'active' : 'inactive'}`} onClick={toggle}>
           {activo ? "Pausa" : "Inicio"}
